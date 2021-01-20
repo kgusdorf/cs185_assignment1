@@ -1,0 +1,13 @@
+.fruits-table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(204, 230, 240);
+}
