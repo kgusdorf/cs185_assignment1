@@ -7,26 +7,26 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <nav>
-      <a href="text_tab.html" class="nav-text">Text | </a>
-      <a href="images_tab.html" class="nav-text">Images | </a>
-      <a href="video_tab.html" class="nav-text">Video | </a>
+      <a href="text_tab.html" class="nav-text">Text</a>
+      <a href="images_tab.html" class="nav-text active">Images</a>
+      <a href="video_tab.html" class="nav-text">Video</a>
       <a href="table_tab.html" class="nav-text">Table</a>
+      <a href="email_tab.html" class="nav-text">Email</a>
     </nav><br><br>
 
-    <table style="width: 100%">
-      <tr>
-        <th><img src="images/pic1.jpg" width="500px"><br>Source: LA Times</th>
-        <th><img src="images/pic2.jpg" width="500px"><br>Source: Six Flags</th>
-        <th><img src="images/pic3.jpg" width="500px"><br>Source: Six Flags</th>
-      </tr>
-      <tr>
-        <th><img src="images/pic4.jpg" width="500px"><br>Source: LA Times</th>
-        <th><img src="images/pic5.jpg" width="500px"><br>Source: Six Flags</th>
-        <th><img src="images/pic6.jpg" width="500px"><br>Source: LA Times</th>
-      </tr>
-    </table>
+    <div class="images-grid" >
+      <img src="images/pic1.jpg" width="100%">
+      <img src="images/pic2.jpg" width="100%">
+      <img src="images/pic3.jpg" width="100%">
+      <img src="images/pic4.jpg" width="100%">
+      <img src="images/pic5.jpg" width="100%">
+      <img src="images/pic6.jpg" width="100%">
+    </div>
+
+    <button onclick="topFunction()" id="topButton" title="Go to top">Top</button>
   </body>
 </html>
